@@ -64,12 +64,19 @@ for (var u = 0; u < newUser.length; u++) { //this is a loop that passes the name
     console.log(checkAge(name, age));
 }
 
-getLength("hellow world"); //call to getLength function
+getLength("hello world"); //call to getLength function
 
-function getLength(word) { //getLength function that counts the number of characters in the string "word"
+
+function getLength(word) { //getLength function that counts the number of characters in the string "word" and returns a message to the dev console based on odd or even number
     var word;
     var length = word.length;
-    console.log(length);
+    evenOdd = length % 2;
+    if (evenOdd == 0) {
+        console.log("The world is nice and even!");
+    } else {
+        console.log("The world is an odd place!");
+    }
+
 }
 
 

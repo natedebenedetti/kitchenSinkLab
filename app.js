@@ -26,6 +26,7 @@ function checkAge(name, age) {  // verifies name and age and returns message bas
     }
 }
 
+
 var favVeg = ["broccoli", "tomato", "green beans", "cauliflower", "asparagus"];  // an array with my favorite vegetables in it.
 
 for (var x = 0; x < favVeg.length; x++) {  //lists all of the vegetables in the favVeg array.
@@ -63,10 +64,25 @@ for (var u = 0; u < newUser.length; u++) { //this is a loop that passes the name
     console.log(checkAge(name, age));
 }
 
-function getLength() { // this WILL BE my function for determing number of characters in a word and returning odd or even.
-    
-    return ;
+getLength("hellow world"); //call to getLength function
+
+function getLength(word) { //getLength function that counts the number of characters in the string "word"
+    var word;
+    var length = word.length;
+    console.log(length);
 }
+
+
+    
+    
+   
+    
+
+
+
+
+
+
 
 
 
